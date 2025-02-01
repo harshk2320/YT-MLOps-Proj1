@@ -19,7 +19,8 @@ log_file_path = os.path.join(log_dir_path, LOG_FILE)
 
 def configure_logger():
     """
-    Configures logging with a rotating file handler and a console handler.
+    The configure_logger() function is responsible for setting up the logging system. 
+    It ensures that logs are recorded in a structured format and stored in both a file (with rotation) and the console.
     """
     # Create a custom logger
     logger = logging.getLogger()
